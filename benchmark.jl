@@ -40,8 +40,6 @@ for a in ["", FAT_LTO]
             for t in times[2:end]
                 push!(samples, merge((time=t,), settings))
             end
-
-            #println(sample)
         end
     end
 end
